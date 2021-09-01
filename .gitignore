@@ -1,0 +1,13 @@
+# Nodejs
+node_modules/
+
+# Yarn
+.yarn-cache/
+.yarn/
+yarn-error.log*
+
+# Build
+dist/
+
+# Cactbot
+cactbot/

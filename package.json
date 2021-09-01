@@ -1,0 +1,28 @@
+{
+  "name": "cactbot-user-template",
+  "version": "1.0.0",
+  "description": "Generate user config files for cactbot",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Maiko Tan",
+    "email": "maiko.tan.coding@gmail.com",
+    "url": "https://github.com/MaikoTan"
+  },
+  "repository": {
+    "type": "git+https",
+    "url": "https://github.com/MaikoTan/cactbot-user-template.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
