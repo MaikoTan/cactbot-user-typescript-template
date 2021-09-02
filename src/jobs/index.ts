@@ -1,4 +1,4 @@
-// Rename this file to `jobs.js` and edit it to change the jobs ui.
+declare const Options: typeof JobsOptions;
 
 // Zones to show food buff warning, when at max level.
 Options.WellFedZoneRegex =
@@ -68,3 +68,5 @@ Options.PerBuffOptions = {
 };
 
 */
+
+export {};

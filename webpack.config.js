@@ -4,10 +4,10 @@ const webpack = require("webpack");
 module.exports = {
   mode: "production",
   entry: {
-    jobs: "./src/jobs/index.js",
-    oopsyraidsy: "./src/oopsyraidsy/index.js",
-    radar: "./src/radar/index.js",
-    raidboss: "./src/raidboss/index.js",
+    jobs: "./src/jobs/index.ts",
+    oopsyraidsy: "./src/oopsyraidsy/index.ts",
+    radar: "./src/radar/index.ts",
+    raidboss: "./src/raidboss/index.ts",
   },
   output: {
     filename: "[name].js",

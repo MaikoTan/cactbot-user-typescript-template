@@ -12,6 +12,7 @@
 1. 下载 [Git](https://git-scm.com/download/win) 并安装。*若您已经安装，请跳过此步骤。*
 1. 点击 `Use This Template` 按钮，在您的账户下建立一个新项目。
 1. 运行 `git clone <您的GitHub账户名>/<您的项目名>.git` 命令将本项目克隆到本地。
+1. 运行 `git submodule update --init --recursive` 命令将本项目的子项目(cactbot)克隆到本地。
 1. 运行 `cd <您的项目名>` 命令进入项目目录。
 1. 如果你还没有安装 yarn，请先安装它：`npm install -g yarn`。
 1. 运行 `yarn install` 以安装项目所需的依赖。
@@ -33,67 +34,7 @@
 
 ## TypeScript 支持
 
-本项目内建 TypeScript 支持，但是需要在项目中引入 Cactbot 的部分源码。
-
-以下给出的是采用 `git-submodule` 的方式引入的例子：
-
-- 从 GitHub 下载 Cactbot 源码
-
-  ```bash
-  $ git submodule add https://github.com/quisquous/cactbot.git cactbot
-  ```
-
-- 在 `webpack.config.js` 中设置 Cactbot 的路径
-
-  ```js
-  externals: {
-    "@": path.resolve(__dirname, 'cactbot'),
-    "Options": "Options",
-  }
-  ```
-
-- 在 `tsconfig.json` 中设置 Cactbot 的路径
-
-  ```jsonc
-  "compilerOptions": {
-    // ...
-    "baseUrl": ".",
-    "paths": {
-      "@": "./cactbot",
-    },
-    // ...
-  }
-  ```
-
-- 自由地引用 Cactbot 的类型吧！
-
-  ```typescript
-  import { Job } from "@/types/job";
-  import Util from '@/resources/util';
-  import ZoneId from '@/resources/zone_id';
-  import { RaidbossData } from '@/types/data';
-  import { TriggerSet } from '@/types/trigger';
-
-  export interface Data extends RaidbossData {
-    // ...
-  }
-
-  const triggerSet: TriggerSet<Data> = {
-    zoneId: ZoneId.MiddleLaNoscea,
-    triggers: [
-      // triggers ...
-    ],
-    // ...
-  };
-
-  export default triggerSet;
-  ```
-
-- `Options` 类型定义在 `@/<模块名>/<模块名>_options.ts` 文件中，可以直接引用。
-
-  ```typescript
-  import Options from '@/raidboss/raidboss_options';
-  ```
+本项目内建 TypeScript 支持。
 
 ## 关联项目
 
