@@ -16,6 +16,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch",
     "update-submodules": "git submodule foreach git pull"
   },
   "devDependencies": {
