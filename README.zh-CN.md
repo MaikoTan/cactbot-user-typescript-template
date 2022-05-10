@@ -25,12 +25,13 @@
 
 ## 与Cactbot的不同
 
-  - 所有模块的默认配置入口都是 `src/<模块名>/index.js`
+- 所有模块的默认配置入口都是 `src/<模块名>/index.js`
 
 ### Raidboss 模块
-  - `raidboss` 中所有触发器文件均需放置在 `data` 目录下
-  - 所有触发器文件的导出方式必须为 `export default { ... }`
-  - 加载自定义时间轴不能使用 `timelineFile` 和 `overrideTimelineFile` 参数，只能使用 `timeline: require(时间轴文件路径)` 的方式引入
+
+- `raidboss` 中所有触发器文件均需放置在 `data` 目录下
+- 所有触发器文件的导出方式必须为 `export default { ... }`
+- 加载自定义时间轴不能使用 `timelineFile` 和 `overrideTimelineFile` 参数，只能使用 `timeline: require(时间轴文件路径)` 的方式引入
 
 ## TypeScript 支持
 
@@ -38,16 +39,16 @@
 
 ## 关联项目
 
-  - [quisquous/cactbot](https://github.com/quisquous/cactbot)
-  - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
+- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## 问题反馈与支持
 
-  - 如果您在使用本项目中发现任何问题，请在 GitHub 上提交 [issue](https://github.com/MaikoTan/cactbot-user-template/issues)。
+- 如果您在使用本项目中发现任何问题，请在 GitHub 上提交 [issue](https://github.com/MaikoTan/cactbot-user-template/issues)。
 
-      - 如果是 Cactbot 本身的问题，请在 [Cactbot 仓库中提交 issue](https://github.com/quisquous/cactbot/issues)。
+  - 如果是 Cactbot 本身的问题，请在 [Cactbot 仓库中提交 issue](https://github.com/quisquous/cactbot/issues)。
 
-  - 如果您有更好的建议，请在 GitHub 上提交 [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls)。
+- 如果您有更好的建议，请在 GitHub 上提交 [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls)。
 
 ## 许可证
 
