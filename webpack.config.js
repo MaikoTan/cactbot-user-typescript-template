@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "production",
@@ -44,5 +45,13 @@ module.exports = {
   },
   plugins: [
     new webpack.CleanPlugin(),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "./src/raidboss/data/**/*.txt",
+          to: "./[name][ext]",
+        },
+      ]
+    })
   ],
 };

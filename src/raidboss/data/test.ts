@@ -3,7 +3,8 @@ import type { TriggerSet } from 'cactbot/trigger';
 
 const triggerSet: TriggerSet<RaidbossData> = {
   zoneId: ZoneId.MiddleLaNoscea,
-  timeline: require('./test.txt'),
+  timelineFile: './test.txt',
+  overrideTimelineFile: true,
   triggers: [
     {
       id: 'User Custom Test',
