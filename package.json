@@ -1,7 +1,7 @@
 {
-  "name": "cactbot-user-template",
+  "name": "cactbot-user-typescript-template",
   "version": "1.0.0",
-  "description": "Generate user config files for cactbot",
+  "description": "Generate user config files for cactbot with TypeScript",
   "main": "dist/index.js",
   "author": {
     "name": "Maiko Tan",
