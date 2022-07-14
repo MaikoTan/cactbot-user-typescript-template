@@ -23,13 +23,13 @@
 
 ## Cactbotとの違い
 
-  - モジュールのエントリー全ては `src/<モジュール名>/index.js` となります。
+- モジュールのエントリー全ては `src/<モジュール名>/index.js` となります。
 
 ### Raidboss モジュール
 
-  - 全てのトリガーやタイムラインファイルは `data` ディレクトリに格納されます。
-  - 全てのトリガーは `export default { ... }`の形でエクスポートされます。
-  - カスタムタイムラインをロードするには、`timelineFile` と `overrideTimelineFile` が使えませんので、`timeline: require(タイムラインファイルパス)` でロードしてください。
+- 全てのトリガーやタイムラインファイルは `data` ディレクトリに格納されます。
+- 全てのトリガーは `export default { ... }`の形でエクスポートされます。
+- カスタムタイムラインをロードするには、`timelineFile` と `overrideTimelineFile` が使えませんので、`timeline: require(タイムラインファイルパス)` でロードしてください。
 
 ## TypeScript サポート
 
@@ -37,17 +37,17 @@
 
 ## 関連項目
 
-  - [quisquous/cactbot](https://github.com/quisquous/cactbot)
-  - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
+- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## バグ報告や改善要望
 
-  - 本プロジェクトに関するバグ報告は、[issue](https://github.com/MaikoTan/cactbot-user-template/issues) で提出してください。
+- 本プロジェクトに関するバグ報告は、[issue](https://github.com/MaikoTan/cactbot-user-template/issues) で提出してください。
 
-      - Cactbot 自体に関する報告は [Cactbot のレポジトリに issue を提出してください](https://github.com/quisquous/cactbot/issues)。
+  - Cactbot 自体に関する報告は [Cactbot のレポジトリに issue を提出してください](https://github.com/quisquous/cactbot/issues)。
 
-  - 本プロジェクトに関する改善案は是非とも [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) で提出してください！
+- 本プロジェクトに関する改善案は是非とも [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) で提出してください！
 
 ## ライセンス
 
-  - 本プロジェクトは [MIT License](LICENSE) の下で配布されています。
+- 本プロジェクトは [MIT License](LICENSE) の下で配布されています。

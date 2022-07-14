@@ -6,8 +6,8 @@ This project is a template project for creating Cactbot customized triggers/time
 
 ## Instructions
 
-1. Download and install [Node.js](https://nodejs.org/en/download/), in normal situation just choose the Windows installer. * If you have already installed it, please skip this step. *.
-1. Download and install [Git](https://git-scm.com/download/win). * If you have already installed it, please skip this step. *.
+1. Download and install [Node.js](https://nodejs.org/en/download/), in normal situation just choose the Windows installer. *If you have already installed it, please skip this step.*.
+1. Download and install [Git](https://git-scm.com/download/win). *If you have already installed it, please skip this step.*.
 1. Click the `Use This Template` button to create a new project under your account.
 1. Run the `git clone <your GitHub account name>/<your project name>.git` command to clone this project locally.
 1. Run the `git submodule update --init` command to update the submodules (e.g. cactbot).
@@ -23,29 +23,31 @@ This project is a template project for creating Cactbot customized triggers/time
 
 ## Differences from Cactbot
 
-  - The default configuration entry for all modules is `src/<module name>/index.js`
+- The default configuration entry for all modules is `src/<module name>/index.js`
 
 ### Raidboss module
-  - All trigger files in `raidboss` must be placed in the `data` directory
-  - All trigger files must be exported as `export default { ... }`
-  - Loading custom timelines cannot use the `timelineFile` and `overrideTimelineFile` properties. There is only `timeline: require(timeline file path)` available currently.
-  - All trigger sets must be exported as `export default { ... }`
+
+- All trigger files in `raidboss` must be placed in the `data` directory
+- All trigger files must be exported as `export default { ... }`
+- Loading custom timelines cannot use the `timelineFile` and `overrideTimelineFile` properties. There is only `timeline: require(timeline file path)` available currently.
+- All trigger sets must be exported as `export default { ... }`
+
 ## TypeScript support
 
 TypeScript support is available in this project.
 
 ## Associated Projects
 
-  - [quisquous/cactbot](https://github.com/quisquous/cactbot)
-  - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
+- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## Feedback and Support
 
-  - If you find any problems using this project, please submit an [issue](https://github.com/MaikoTan/cactbot-user-template/issues) on GitHub.
+- If you find any problems using this project, please submit an [issue](https://github.com/MaikoTan/cactbot-user-template/issues) on GitHub.
 
-      - If the problem is with Cactbot itself, please submit an issue to the [Cactbot repository](https://github.com/quisquous/cactbot/issues).
+  - If the problem is with Cactbot itself, please submit an issue to the [Cactbot repository](https://github.com/quisquous/cactbot/issues).
 
-  - If you have any suggestions, please submit a [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) on GitHub.
+- If you have any suggestions, please submit a [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) on GitHub.
 
 ## License
 
