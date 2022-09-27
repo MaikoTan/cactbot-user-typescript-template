@@ -1,3 +1,4 @@
 [submodule "cactbot"]
 	path = cactbot
 	url = https://github.com/quisquous/cactbot.git
+	branch = main
