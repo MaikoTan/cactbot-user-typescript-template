@@ -1,9 +1,11 @@
 import type { RaidbossData } from 'cactbot/data';
 import type { TriggerSet } from 'cactbot/trigger';
 
+import timeline from './test.txt';
+
 const triggerSet: TriggerSet<RaidbossData> = {
   zoneId: ZoneId.MiddleLaNoscea,
-  timelineFile: './test.txt',
+  timelineFile: timeline,
   overrideTimelineFile: true,
   triggers: [
     {
