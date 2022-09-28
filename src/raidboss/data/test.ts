@@ -1,5 +1,5 @@
-import type { RaidbossData } from 'cactbot/data';
-import type { TriggerSet } from 'cactbot/trigger';
+import type { RaidbossData } from 'cactbot/types/data';
+import type { TriggerSet } from 'cactbot/types/trigger';
 
 import timeline from './test.txt';
 
