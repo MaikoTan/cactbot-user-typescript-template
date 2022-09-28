@@ -11,6 +11,7 @@ module.exports = {
     raidboss: "./src/raidboss/index.ts",
   },
   output: {
+    assetModuleFilename: "[name].[hash:8][ext][query]",
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
   },
@@ -39,19 +40,11 @@ module.exports = {
       {
         test: /\.txt$/,
         exclude: /node_modules/,
-        type: 'asset/source',
+        type: 'asset/resource',
       },
     ],
   },
   plugins: [
     new webpack.CleanPlugin(),
-    new CopyPlugin({
-      patterns: [
-        {
-          from: "./src/raidboss/data/**/*.txt",
-          to: "./[name][ext]",
-        },
-      ]
-    })
   ],
 };
