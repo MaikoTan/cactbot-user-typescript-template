@@ -29,7 +29,7 @@
 
 - 全てのトリガーやタイムラインファイルは `data` ディレクトリに格納されます。
 - 全てのトリガーは `export default { ... }`の形でエクスポートされます。
-- カスタムタイムラインをロードするには、`timelineFile` と `overrideTimelineFile` が使えませんので、`timeline: require(タイムラインファイルパス)` でロードしてください。
+- `timelineFile`と`overrideTimelineFile`を用いてタイムラインをカスタマイズする場合は、`import`文や`require`関数を用いてタイムラインファイルを指定してください。[例](./src/raidboss/data/test.ts)
 
 ## TypeScript サポート
 

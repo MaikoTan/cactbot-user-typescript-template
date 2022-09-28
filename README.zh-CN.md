@@ -31,7 +31,7 @@
 
 - `raidboss` 中所有触发器文件均需放置在 `data` 目录下
 - 所有触发器文件的导出方式必须为 `export default { ... }`
-- 加载自定义时间轴不能使用 `timelineFile` 和 `overrideTimelineFile` 参数，只能使用 `timeline: require(时间轴文件路径)` 的方式引入
+- 使用 `timelineFile` 和 `overrideTimelineFile` 参数加载自定义时间轴时，应当使用 `import` 语句或 `require` 函数指定时间轴文件。[实例文件](./src/raidboss/data/test.ts)
 
 ## TypeScript 支持
 
