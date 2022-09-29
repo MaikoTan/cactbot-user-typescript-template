@@ -1,20 +1,21 @@
-import _Conditions from '../cactbot/resources/conditions';
-import _ContentType from '../cactbot/resources/content_type';
-import _NetRegexes from '../cactbot/resources/netregexes';
-import _Regexes from '../cactbot/resources/regexes';
-import { Responses as _Responses } from '../cactbot/resources/responses';
-import _Outputs from '../cactbot/resources/outputs';
-import _Util from '../cactbot/resources/util';
-import _ZoneId from '../cactbot/resources/zone_id';
-import _ZoneInfo from '../cactbot/resources/zone_info';
+import _Conditions from 'cactbot/resources/conditions';
+import _ContentType from 'cactbot/resources/content_type';
+import _NetRegexes from 'cactbot/resources/netregexes';
+import _Regexes from 'cactbot/resources/regexes';
+import { Responses as _Responses } from 'cactbot/resources/responses';
+import _Outputs from 'cactbot/resources/outputs';
+import _Util from 'cactbot/resources/util';
+import _ZoneId from 'cactbot/resources/zone_id';
+import _ZoneInfo from 'cactbot/resources/zone_info';
 
-import _JobsOptions from '../cactbot/ui/jobs/jobs_options';
-import _OopsyRaidsyOptions from '../cactbot/ui/oopsyraidsy/oopsy_options';
-import _RaidbossOptions from '../cactbot/ui/raidboss/raidboss_options';
-import { BaseOptions } from '../cactbot/types/data';
-import { HuntMap } from '../cactbot/resources/hunt';
+import _JobsOptions from 'cactbot/ui/jobs/jobs_options';
+import _OopsyRaidsyOptions from 'cactbot/ui/oopsyraidsy/oopsy_options';
+import _RaidbossOptions from 'cactbot/ui/raidboss/raidboss_options';
+import { BaseOptions } from 'cactbot/types/data';
+import { LocaleObject } from 'cactbot/types/trigger';
 
 type LocaleTextOrArray = LocaleObject<string | string[]>;
+type Rank = 'SS' | 'S' | 'A' | 'B'
 
 declare global {
   // Global variables

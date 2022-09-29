@@ -1,9 +1,8 @@
-import type { RaidbossData } from 'cactbot/types/data';
-import type { TriggerSet } from 'cactbot/types/trigger';
+import { defineTriggerSet, NetRegexes, ZoneId } from 'cactbot-utils';
 
 import timeline from './test.txt';
 
-const triggerSet: TriggerSet<RaidbossData> = {
+export default defineTriggerSet({
   zoneId: ZoneId.MiddleLaNoscea,
   timelineFile: timeline,
   overrideTimelineFile: true,
@@ -99,6 +98,4 @@ const triggerSet: TriggerSet<RaidbossData> = {
       },
     },
   ],
-};
-
-export default triggerSet;
+});
