@@ -8,3 +8,7 @@ yarn-error.log*
 
 # Build
 dist/
+
+# VSCode
+.vscode/
+.devcontainer/
