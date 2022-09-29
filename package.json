@@ -9,6 +9,8 @@
     "utils",
     "src"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
   "devDependencies": {}
 }
