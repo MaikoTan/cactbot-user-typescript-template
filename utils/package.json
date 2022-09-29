@@ -2,8 +2,13 @@
   "name": "cactbot-utils",
   "version": "0.0.0",
   "description": "utils for cactbot user development",
-  "scripts": {},
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
-    "cactbot": "*"
+    "cactbot": "*",
+    "typescript": "^4.7.0"
   }
 }
