@@ -10,7 +10,6 @@ This project is a template project for creating Cactbot customized triggers/time
 1. Download and install [Git](https://git-scm.com/download/win). *If you have already installed it, please skip this step.*.
 1. Click the `Use This Template` button to create a new project under your account.
 1. Run the `git clone <your GitHub account name>/<your project name>.git` command to clone this project locally.
-1. Run the `git submodule update --init` command to update the submodules (e.g. cactbot).
 1. Run the `cd <your project name>` command to enter the project directory.
 1. Install yarn if you haven't already done so: `npm install -g yarn`.
 1. Run `yarn install` to install the required dependencies for the project.

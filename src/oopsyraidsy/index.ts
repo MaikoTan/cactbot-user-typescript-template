@@ -1,4 +1,8 @@
-declare const Options: typeof OopsyRaidsyOptions;
+import type { OopsyOptions } from "cactbot/ui/oopsyraidsy/oopsy_options";
+
+declare const Options: OopsyOptions;
+
+export {};
 
 // You can make some changes to the default options here.
 // For example, disable some built-in triggers.
@@ -11,5 +15,3 @@ declare const Options: typeof OopsyRaidsyOptions;
 // https://github.com/quisquous/cactbot/blob/main/ui/oopsyraidsy/oopsy_options.ts
 // Or you can check the example config file in
 // https://github.com/quisquous/cactbot/blob/main/user/oopsyraidsy-example.js
-
-export {};

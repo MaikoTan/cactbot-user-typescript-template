@@ -1,5 +1,7 @@
 declare const Options: typeof RadarOptions;
 
+export {};
+
 // You can make some changes to the default options here.
 // For example, add some custom monsters.
 // Options.CustomMonsters = {
@@ -18,5 +20,3 @@ declare const Options: typeof RadarOptions;
 // https://github.com/quisquous/cactbot/blob/main/ui/radar/radar_config.ts
 // Or you can check the example config file in
 // https://github.com/quisquous/cactbot/blob/main/user/radar-example.js
-
-export {};

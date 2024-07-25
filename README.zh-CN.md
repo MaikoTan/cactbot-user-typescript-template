@@ -12,7 +12,6 @@
 1. 下载 [Git](https://git-scm.com/download/win) 并安装。*若您已经安装，请跳过此步骤。*
 1. 点击 `Use This Template` 按钮，在您的账户下建立一个新项目。
 1. 运行 `git clone <您的GitHub账户名>/<您的项目名>.git` 命令将本项目克隆到本地。
-1. 运行 `git submodule update --init --recursive` 命令将本项目的子项目(cactbot)克隆到本地。
 1. 运行 `cd <您的项目名>` 命令进入项目目录。
 1. 如果你还没有安装 yarn，请先安装它：`npm install -g yarn`。
 1. 运行 `yarn install` 以安装项目所需的依赖。
