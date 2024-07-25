@@ -1,5 +1,3 @@
-import ZoneId from "cactbot/resources/zone_id";
-
 import type { RaidbossData } from "cactbot/types/data";
 import type { TriggerSet } from "cactbot/types/trigger";
 
