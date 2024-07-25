@@ -1,16 +1,18 @@
-import type { RaidbossData } from "cactbot/data";
-import type { TriggerSet } from "cactbot/trigger";
+import type { RaidbossData } from "cactbot/types/data";
+import type { TriggerSet } from "cactbot/types/trigger";
 
 import timeline from "./test.txt";
 
 const triggerSet: TriggerSet<RaidbossData> = {
+  id: "test",
   zoneId: ZoneId.MiddleLaNoscea,
   timelineFile: timeline,
   overrideTimelineFile: true,
   triggers: [
     {
       id: "User Custom Test",
-      netRegex: NetRegexes.echo({ line: "test user" }),
+      type: "GameLog",
+      netRegex: { line: "test user", capture: false },
       infoText: {
         en: "User Custom Test",
         de: "Benutzerdefinierte Test",
