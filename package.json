@@ -16,7 +16,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c --configPlugin=@rollup/plugin-typescript",
-    "watch": "webpack --config webpack.config.js --watch"
+    "watch": "yarn build --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
