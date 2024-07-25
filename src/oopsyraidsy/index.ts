@@ -12,6 +12,6 @@ export {};
 //   'Test Bootshine': true,
 // };
 // All types of options are defined in
-// https://github.com/quisquous/cactbot/blob/main/ui/oopsyraidsy/oopsy_options.ts
+// https://github.com/OverlayPlugin/cactbot/blob/main/ui/oopsyraidsy/oopsy_options.ts
 // Or you can check the example config file in
-// https://github.com/quisquous/cactbot/blob/main/user/oopsyraidsy-example.js
+// https://github.com/OverlayPlugin/cactbot/blob/main/user/oopsyraidsy-example.js

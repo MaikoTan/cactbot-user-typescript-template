@@ -17,6 +17,6 @@ export {};
 //   },
 // };
 // All types of options are defined in
-// https://github.com/quisquous/cactbot/blob/main/ui/radar/radar_config.ts
+// https://github.com/OverlayPlugin/cactbot/blob/main/ui/radar/radar_config.ts
 // Or you can check the example config file in
-// https://github.com/quisquous/cactbot/blob/main/user/radar-example.js
+// https://github.com/OverlayPlugin/cactbot/blob/main/user/radar-example.js

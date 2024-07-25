@@ -9,9 +9,9 @@ declare const Options: RaidbossOptions;
 //   'Pipira Pira': 'Fish',
 // };
 // All types of options are defined in
-// https://github.com/quisquous/cactbot/blob/main/ui/raidboss/raidboss_options.ts
+// https://github.com/OverlayPlugin/cactbot/blob/main/ui/raidboss/raidboss_options.ts
 // Or you can check the example config file in
-// https://github.com/quisquous/cactbot/blob/main/user/raidboss-example.js
+// https://github.com/OverlayPlugin/cactbot/blob/main/user/raidboss-example.js
 
 // Add triggers in `data/` recursively.
 // NOTE: You SHOULD NOT change these lines, or it may cause unexpected errors.

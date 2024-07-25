@@ -36,14 +36,14 @@ TypeScript support is available in this project.
 
 ## Associated Projects
 
-- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [OverlayPlugin/cactbot](https://github.com/OverlayPlugin/cactbot)
 - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## Feedback and Support
 
 - If you find any problems using this project, please submit an [issue](https://github.com/MaikoTan/cactbot-user-template/issues) on GitHub.
 
-  - If the problem is with Cactbot itself, please submit an issue to the [Cactbot repository](https://github.com/quisquous/cactbot/issues).
+  - If the problem is with Cactbot itself, please submit an issue to the [Cactbot repository](https://github.com/OverlayPlugin/cactbot/issues).
 
 - If you have any suggestions, please submit a [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) on GitHub.
 

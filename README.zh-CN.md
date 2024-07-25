@@ -38,14 +38,14 @@
 
 ## 关联项目
 
-- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [OverlayPlugin/cactbot](https://github.com/OverlayPlugin/cactbot)
 - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## 问题反馈与支持
 
 - 如果您在使用本项目中发现任何问题，请在 GitHub 上提交 [issue](https://github.com/MaikoTan/cactbot-user-template/issues)。
 
-  - 如果是 Cactbot 本身的问题，请在 [Cactbot 仓库中提交 issue](https://github.com/quisquous/cactbot/issues)。
+  - 如果是 Cactbot 本身的问题，请在 [Cactbot 仓库中提交 issue](https://github.com/OverlayPlugin/cactbot/issues)。
 
 - 如果您有更好的建议，请在 GitHub 上提交 [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls)。
 

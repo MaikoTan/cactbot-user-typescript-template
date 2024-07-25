@@ -36,14 +36,14 @@
 
 ## 関連項目
 
-- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [OverlayPlugin/cactbot](https://github.com/OverlayPlugin/cactbot)
 - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## バグ報告や改善要望
 
 - 本プロジェクトに関するバグ報告は、[issue](https://github.com/MaikoTan/cactbot-user-template/issues) で提出してください。
 
-  - Cactbot 自体に関する報告は [Cactbot のレポジトリに issue を提出してください](https://github.com/quisquous/cactbot/issues)。
+  - Cactbot 自体に関する報告は [Cactbot のレポジトリに issue を提出してください](https://github.com/OverlayPlugin/cactbot/issues)。
 
 - 本プロジェクトに関する改善案は是非とも [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) で提出してください！
 
