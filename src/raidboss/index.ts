@@ -1,5 +1,7 @@
 import type { RaidbossOptions } from "cactbot/ui/raidboss/raidboss_options";
 
+import triggers from "./data";
+
 declare const Options: RaidbossOptions;
 
 // You can make some changes to the default options here.
@@ -15,10 +17,6 @@ declare const Options: RaidbossOptions;
 
 // Add triggers in `data/` recursively.
 // NOTE: You SHOULD NOT change these lines, or it may cause unexpected errors.
-const context = require.context("./data", true, /.*\.(ts|js|tsx)$/);
-context.keys().forEach((key) => {
-  const triggerFile = context(key);
-  Options.Triggers.push(triggerFile.default);
-});
+Options.Triggers.push(...triggers);
 
 export {};
