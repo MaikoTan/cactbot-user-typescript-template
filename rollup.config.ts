@@ -6,15 +6,7 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 import glob from "fast-glob";
 import { defineConfig } from "rollup";
 
-// const entries = [
-//   ["jobs/index", "src/jobs/index.ts"],
-//   ["oopsyraidsy/index", "src/oopsyraidsy/index.ts"],
-//   ["radar/index", "src/radar/index.ts"],
-//   ["raidboss/index", "src/raidboss/index.ts"],
-// ];
-
 const commonSettings = {
-  
   external: ["cactbot", /^cactbot\/.+/],
   plugins: [
     (function () {
@@ -37,9 +29,7 @@ const commonSettings = {
               )
             ).filter((trigger) => !/data[/\\]index\.ts$/.test(trigger));
             const imports = allTriggers
-              .map(
-                (trigger, idx) => `import trigger${idx} from '${trigger}';`
-              )
+              .map((trigger, idx) => `import trigger${idx} from '${trigger}';`)
               .join("\n");
             const triggers = allTriggers
               .map((_, idx) => `trigger${idx}`)
@@ -63,7 +53,7 @@ const commonSettings = {
     commonjs(),
     nodeResolve(),
   ],
-}
+};
 
 export default defineConfig([
   {
